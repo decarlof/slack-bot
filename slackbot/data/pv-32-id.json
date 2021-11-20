@@ -1,0 +1,101 @@
+{
+    "data": {
+        "copy_to_analysis_dir": "32id:TomoScan:CopyToAnalysisDir",
+        "detector_top_dir": "32id:TomoScan:DetectorTopDir",
+        "experiment_year_month": "32id:TomoScan:ExperimentYearMonth",
+        "remote_data_analysis_dir": "32id:TomoScan:RemoteAnalysisDir",
+        "user_last_name": "32id:TomoScan:UserLastName"
+    },
+    "detector": {
+        "cam_acquire": "32idARV2:cam1:Acquire",
+        "cam_acquire_busy": "32idARV2:cam1:AcquireBusy",
+        "cam_acquire_time": "32idARV2:cam1:AcquireTime",
+        "cam_image_mode": "32idARV2:cam1:ImageMode",
+        "cam_manufacturer": "32idARV2:cam1:Manufacturer_RBV",
+        "cam_model": "32idARV2:cam1:Model_RBV",
+        "cam_num_images": "32idARV2:cam1:NumImages",
+        "cam_num_images_counter": "32idARV2:cam1:NumImagesCounter_RBV",
+        "cam_trigger_mode": "32idARV2:cam1:TriggerMode",
+        "different_flat_exposure": "32id:TomoScan:DifferentFlatExposure",
+        "exposure_time": "32id:TomoScan:ExposureTime",
+        "flat_field_time": "32id:TomoScan:FlatExposureTime"
+    },
+    "file": {
+        "FPFullFileName": "32idARV2:HDF1:FullFileName_RBV",
+        "FPNumCaptured": "32idARV2:HDF1:NumCaptured_RBV",
+        "file_name": "32id:TomoScan:FileName",
+        "file_path": "32id:TomoScan:FilePath",
+        "file_path_exists": "32id:TomoScan:FilePathExists",
+        "hdf5_dark_location": "32id:TomoScan:HDF5DarkLocation",
+        "hdf5_flat_location": "32id:TomoScan:HDF5FlatLocation",
+        "hdf5_location": "32id:TomoScan:HDF5Location",
+        "hdf5_projection_location": "32id:TomoScan:HDF5ProjectionLocation",
+        "overwrite_warning": "32id:TomoScan:OverwriteWarning"
+    },
+    "optics": {
+        "camera_objective": "32id:TomoScan:CameraObjective",
+        "camera_tube_lens": "32id:TomoScan:CameraTubeLength",
+        "detector_pixel_size": "32id:TomoScan:DetectorPixelSize",
+        "image_pixel_size": "32id:TomoScan:ImagePixelSize",
+        "scintillator_thickness": "32id:TomoScan:ScintillatorThickness",
+        "scintillator_type": "32id:TomoScan:ScintillatorType"
+    },
+    "ring": {
+        "acis_shutter_permit": "ACIS:ShutterPermit",
+        "ops_message1": "OPS:message1",
+        "ops_message2": "OPS:message2",
+        "ops_message3": "OPS:message3",
+        "ops_message4": "OPS:message4",
+        "ops_message5": "OPS:message5",
+        "s_current": "S:SRcurrentAI",
+        "s_desired_mode": "S:DesiredMode",
+        "shutter_status": "PB:32ID:STA_A_FES_CLSD_PL"
+    },
+    "sample": {
+        "sameple_name": "32id:TomoScan:SampleName",
+        "sample_description_1": "32id:TomoScan:SampleDescription1",
+        "sample_description_2": "32id:TomoScan:SampleDescription2",
+        "sample_description_3": "32id:TomoScan:SampleDescription3"
+    },
+    "scan": {
+        "abort_scan": "32id:TomoScan:AbortScan",
+        "dark_field_mode": "32id:TomoScan:DarkFieldMode",
+        "dark_field_value": "32id:TomoScan:DarkFieldValue",
+        "elapsed_time": "32id:TomoScan:ElapsedTime",
+        "flat_field_axis": "32id:TomoScan:FlatFieldAxis",
+        "flat_field_mode": "32id:TomoScan:FlatFieldMode",
+        "flat_field_value": "32id:TomoScan:FlatFieldValue",
+        "frame_type": "32id:TomoScan:FrameType",
+        "images_collected": "32id:TomoScan:ImagesCollected",
+        "images_saved": "32id:TomoScan:ImagesSaved",
+        "move_sample_in": "32id:TomoScan:MoveSampleIn",
+        "move_sample_out": "32id:TomoScan:MoveSampleOut",
+        "num_angle": "32id:TomoScan:NumAngles",
+        "num_dark_fields": "32id:TomoScan:NumDarkFields",
+        "num_flat_fields": "32id:TomoScan:NumFlatFields",
+        "remaining_time": "32id:TomoScan:RemainingTime",
+        "return_rotation": "32id:TomoScan:ReturnRotation",
+        "rotation_start": "32id:TomoScan:RotationStart\"",
+        "rotation_step": "32id:TomoScan:RotationStep",
+        "rotation_stop": "32id:TomoScan:RotationStop",
+        "sample_in_x": "32id:TomoScan:SampleInX",
+        "sample_in_y": "32id:TomoScan:SampleInY",
+        "sample_out_x": "32id:TomoScan:SampleOutX",
+        "sample_out_y": "32id:TomoScan:SampleOutY",
+        "scan_status": "32id:TomoScan:ScanStatus",
+        "server_running": "32id:TomoScan:ServerRunning",
+        "start_scan": "32id:TomoScan:StartScan",
+        "testing": "32id:TomoScan:Testing"
+    },
+    "user": {
+        "esaf_number": "32id:TomoScan:ESAFNumber",
+        "proposal_number": "32id:TomoScan:ProposalNumber",
+        "proposal_title": "32id:TomoScan:ProposalTitle",
+        "user_badge": "32id:TomoScan:UserBadge",
+        "user_email": "32id:TomoScan:UserEmail",
+        "user_info_update": "32id:TomoScan:UserInfoUpdate",
+        "user_institution": "32id:TomoScan:UserInstitution",
+        "user_last_name": "32id:TomoScan:UserLastName",
+        "user_name": "32id:TomoScan:UserName"
+    }
+}
